@@ -1,0 +1,87 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    background-color: rgb(42, 156, 156);
+    border-radius: 10px;
+    padding: 3px;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+nav{
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #44ac48;
+}
+
+
+
+.primerEnlace{
+    background-color: #44ac48; /* Color de fondo */
+}
+.primerEnlace:hover{
+    background-color: #333; /* Color de fondo */
+}
+#contacto{
+    float: right;
+}
+
+p{
+    padding: 100px 15px;
+}
+.pf{
+    padding: 10px 15px;
+}
+
+footer{
+    background-color: #333;
+    font-size: smaller;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    padding: 0;
+    height:fit-content;
+    bottom: 0;
+}
